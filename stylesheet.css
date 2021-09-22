@@ -1,0 +1,274 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Calibri',sans-serif;
+}
+
+.wrapper {
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Avenir next;
+    color: #025949;
+}
+
+.menu {
+    float: right;
+}
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 300px;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 21px 0;
+    display:block;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #79d9d9;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-size: 15pt;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #F5F5F5;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #f27052;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #f27052;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+section img {
+    width: 72%;
+    height: 72%;
+}
+
+.kolom {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 50pt;
+    font-weight: bold;
+    font-family: 'calibri';
+    color: #f2b705;
+}
+
+.kolom h2 {
+    font-family: 'calibri';
+    font-weight: 800;
+    font-size: 130px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #f2b705;
+    width: 100%;
+    line-height: 20px;
+}
+
+.utama h1 {
+    font-family: 'calibri';
+    font-weight: 800;
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #f2b705;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+    background-color: #e6e6e696;
+    background-size: cover;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tim-bawah {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor h3 {
+    font-family: 'calibri';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #025949;
+}
+
+.kartu-tutor p {
+    font-family: 'calibri';
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #025949;
+}
+
+.heading {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    height: 200px;
+  }
+  
+  .heading h2 {
+    font-weight: bold;
+    font-family: calibri;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .heading h3 {
+      font-weight: bold;
+      font-family: calibri;
+      color: white;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid rgb(224, 137, 7);
+    padding-bottom: 80px;
+    text-align: center;
+    padding-top: 20px;
+    background-image: url(BG.jpeg);
+    background-position: 0%;
+    opacity:unset;
+  }
+  
+  .message {
+    padding: 15px 30px;
+    background-color:salmon;
+    cursor: wait;
+    box-shadow: 0 10px chocolate;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border-radius: 7px;
+  }
+  .message:hover{
+    color:rgb(180, 101, 107);
+    opacity:0.7;
+  }
+  
+  .footer {
+    background-color: #79d9d9;
+    color: #fff;
+    height: 80px;
+    padding: 20px;
+    height:120px;
+
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 22px;
+    font-size: 32px;
+    padding: 40px 80px;
+  }
+
+@media (max-width: 1000px) {
+    section img {
+        width: 500px
+    }
+}
